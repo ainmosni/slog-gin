@@ -1,6 +1,7 @@
 package main
 
 import (
+	"log/slog"
 	"net/http"
 	"os"
 	"time"
@@ -8,7 +9,6 @@ import (
 	"github.com/gin-gonic/gin"
 	slogformatter "github.com/samber/slog-formatter"
 	sloggin "github.com/samber/slog-gin"
-	"golang.org/x/exp/slog"
 )
 
 func main() {

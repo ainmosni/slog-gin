@@ -10,7 +10,7 @@
 [![Contributors](https://img.shields.io/github/contributors/samber/slog-gin)](https://github.com/samber/slog-gin/graphs/contributors)
 [![License](https://img.shields.io/github/license/samber/slog-gin)](./LICENSE)
 
-[Gin](https://github.com/gin-gonic/gin) middleware to log http requests using [slog](https://pkg.go.dev/golang.org/x/exp/slog).
+[Gin](https://github.com/gin-gonic/gin) middleware to log http requests using [slog](https://pkg.go.dev/log/slog).
 
 **See also:**
 
@@ -55,7 +55,7 @@ No breaking changes will be made to exported APIs before v1.0.0.
 import (
 	"github.com/gin-gonic/gin"
 	sloggin "github.com/samber/slog-gin"
-	"golang.org/x/exp/slog"
+	"log/slog"
 )
 
 // Create a slog logger, which:
@@ -86,7 +86,7 @@ import (
 	"github.com/gin-gonic/gin"
 	sloggin "github.com/samber/slog-gin"
 	slogformatter "github.com/samber/slog-formatter"
-	"golang.org/x/exp/slog"
+	"log/slog"
 )
 
 // Create a slog logger, which:
@@ -124,7 +124,7 @@ router.Run(":1234")
 import (
 	"github.com/gin-gonic/gin"
 	sloggin "github.com/samber/slog-gin"
-	"golang.org/x/exp/slog"
+	"log/slog"
 )
 
 // Create a slog logger, which:
@@ -154,7 +154,7 @@ router.Run(":1234")
 import (
 	"github.com/gin-gonic/gin"
 	sloggin "github.com/samber/slog-gin"
-	"golang.org/x/exp/slog"
+	"log/slog"
 )
 
 // Create a slog logger, which:
@@ -181,7 +181,7 @@ router.Run(":1234")
 import (
 	"github.com/gin-gonic/gin"
 	sloggin "github.com/samber/slog-gin"
-	"golang.org/x/exp/slog"
+	"log/slog"
 )
 
 // Create a slog logger, which:
@@ -215,7 +215,7 @@ router.Run(":1234")
 import (
 	"github.com/gin-gonic/gin"
 	sloggin "github.com/samber/slog-gin"
-	"golang.org/x/exp/slog"
+	"log/slog"
 )
 
 // Create a slog logger, which:
